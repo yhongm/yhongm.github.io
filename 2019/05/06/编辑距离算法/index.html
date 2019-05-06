@@ -79,13 +79,19 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="yhongm">
-<meta property="og:url" content="https://github.com/yhongm/yhongm.github.io.git/index.html">
+<meta name="description" content="使用的莱文斯坦算法(编辑距离算法)wike介绍 前期了解 莱文斯坦距离，又称Levenshtein距离，是编辑距离的一种。指两个字串之间，由一个转成另一个所需的最少编辑操作次数。允许的编辑操作包括将一个字符替换成另一个字符，插入一个字符，删除一个字符。莱文斯坦距离以俄国科学家Vladimir levenshtein命名，于1965年发明了这个算法,莱文斯坦距离又称为编辑距离。在信息论中，两个等长字">
+<meta property="og:type" content="article">
+<meta property="og:title" content="编辑距离算法">
+<meta property="og:url" content="https://github.com/yhongm/yhongm.github.io.git/2019/05/06/编辑距离算法/index.html">
 <meta property="og:site_name" content="yhongm">
+<meta property="og:description" content="使用的莱文斯坦算法(编辑距离算法)wike介绍 前期了解 莱文斯坦距离，又称Levenshtein距离，是编辑距离的一种。指两个字串之间，由一个转成另一个所需的最少编辑操作次数。允许的编辑操作包括将一个字符替换成另一个字符，插入一个字符，删除一个字符。莱文斯坦距离以俄国科学家Vladimir levenshtein命名，于1965年发明了这个算法,莱文斯坦距离又称为编辑距离。在信息论中，两个等长字">
 <meta property="og:locale" content="zh-Hans //语言 中文">
+<meta property="og:image" content="https://wikimedia.org/api/rest_v1/media/math/render/svg/4520f5376b54613a5b0e6c6db46083989f901821">
+<meta property="og:updated_time" content="2019-05-06T09:26:11.059Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="yhongm">
+<meta name="twitter:title" content="编辑距离算法">
+<meta name="twitter:description" content="使用的莱文斯坦算法(编辑距离算法)wike介绍 前期了解 莱文斯坦距离，又称Levenshtein距离，是编辑距离的一种。指两个字串之间，由一个转成另一个所需的最少编辑操作次数。允许的编辑操作包括将一个字符替换成另一个字符，插入一个字符，删除一个字符。莱文斯坦距离以俄国科学家Vladimir levenshtein命名，于1965年发明了这个算法,莱文斯坦距离又称为编辑距离。在信息论中，两个等长字">
+<meta name="twitter:image" content="https://wikimedia.org/api/rest_v1/media/math/render/svg/4520f5376b54613a5b0e6c6db46083989f901821">
 
 
 
@@ -115,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="https://github.com/yhongm/yhongm.github.io.git/">
+  <link rel="canonical" href="https://github.com/yhongm/yhongm.github.io.git/2019/05/06/编辑距离算法/">
 
 
 
 
 
-  <title>yhongm</title>
+  <title>编辑距离算法 | yhongm</title>
   
 
 
@@ -140,8 +146,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,9 +219,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -246,9 +251,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/05/06/编辑距离算法/" itemprop="url">编辑距离算法</a></h1>
+          <h1 class="post-title" itemprop="name headline">编辑距离算法</h1>
         
 
         <div class="post-meta">
@@ -298,9 +301,7 @@
       
 
       
-        
-          
-            <h3 id="使用的莱文斯坦算法-编辑距离算法"><a href="#使用的莱文斯坦算法-编辑距离算法" class="headerlink" title="使用的莱文斯坦算法(编辑距离算法)"></a>使用的莱文斯坦算法(编辑距离算法)</h3><p><a href="https://zh.wikipedia.org/wiki/%E8%90%8A%E6%96%87%E6%96%AF%E5%9D%A6%E8%B7%9D%E9%9B%A2" target="_blank" rel="noopener">wike介绍</a></p>
+        <h3 id="使用的莱文斯坦算法-编辑距离算法"><a href="#使用的莱文斯坦算法-编辑距离算法" class="headerlink" title="使用的莱文斯坦算法(编辑距离算法)"></a>使用的莱文斯坦算法(编辑距离算法)</h3><p><a href="https://zh.wikipedia.org/wiki/%E8%90%8A%E6%96%87%E6%96%AF%E5%9D%A6%E8%B7%9D%E9%9B%A2" target="_blank" rel="noopener">wike介绍</a></p>
 <h2 id="前期了解"><a href="#前期了解" class="headerlink" title="前期了解"></a>前期了解</h2><blockquote>
 <p>莱文斯坦距离，又称Levenshtein距离，是编辑距离的一种。指两个字串之间，由一个转成另一个所需的最少编辑操作次数。允许的编辑操作包括将一个字符替换成另一个字符，插入一个字符，删除一个字符。<br>莱文斯坦距离以俄国科学家Vladimir levenshtein命名，于1965年发明了这个算法,莱文斯坦距离又称为编辑距离。<br>在信息论中，两个等长字符串之间的汉明距离（英语：Hamming distance）是两个字符串对应位置的不同字符的个数。换句话说，它就是将一个字符串变换成另外一个字符串所需要替换的字符个数。<br>汉明重量是字符串相对于同样长度的零字符串的汉明距离，也就是说，它是字符串中非零的元素个数：对于二进制字符串来说，就是1的个数，所以11101的汉明重量是4。</p>
 </blockquote>
@@ -359,8 +360,6 @@
 <p>通常编辑距离时间复杂度是O(M*N)，但通常我们只要一些简单的移动就能满足需要，降低点精确性，将时间复杂度降低到O(max(M, N)即可</p>
 </blockquote>
 
-          
-        
       
     </div>
     
@@ -377,199 +376,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://github.com/yhongm/yhongm.github.io.git/2019/05/05/虚拟dom-diff算法/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="yhongm">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="yhongm">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/05/05/虚拟dom-diff算法/" itemprop="url">虚拟dom diff算法</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-05-05T16:37:41+08:00">
-                2019-05-05
-              </time>
+              <a href="/2019/05/05/虚拟dom-diff算法/" rel="next" title="虚拟dom diff算法">
+                <i class="fa fa-chevron-left"></i> 虚拟dom diff算法
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h2 id="虚拟DOM"><a href="#虚拟DOM" class="headerlink" title="虚拟DOM"></a>虚拟DOM</h2><h3 id="为什么使用虚拟DOM"><a href="#为什么使用虚拟DOM" class="headerlink" title="为什么使用虚拟DOM"></a>为什么使用虚拟DOM</h3><blockquote>
-<p>因为直接操作虚拟DOM效率低，并且执行慢</p>
-</blockquote>
-<h3 id="浏览器工作流"><a href="#浏览器工作流" class="headerlink" title="浏览器工作流"></a>浏览器工作流</h3><blockquote>
-<p>下图使用webkit，除了一些细微差别，所有浏览器工作流相同<br><img src="https://cdn.hashnode.com/res/hashnode/image/upload/wvbwscn7oadykroobdd3/1472288564.png"><br>创建DOM树:</p>
-<ul>
-<li>一旦浏览器接收一个HTML文件,渲染引擎解析它并创建一个节点DOM树,HTML节点有一个一对一的关系<br>创建渲染树</li>
-<li>与此同时解析外部CSS文件，内联样式文件.样式信息随着DOM树中节点,被用作创建其他的树,被称为渲染树<br>创建渲染树的背后</li>
-<li>在webkit中,解析节点，样式的过程被称为“attachment”,DOM树中的所有节点都有一个attach方法,它接收计算出的样式信息并且返回一个渲染对象（renderer）</li>
-<li>Attachment 是同步的，节点插入DOM树会调用新节点的attach方法</li>
-<li>构建渲染树过程中，由这些渲染对象组成的，需要计算每个渲染对象的视觉属性.这是通过元素的计算样式属性来完成的。<br>布局(重排)</li>
-<li>在构建渲染树之后，他经过一个布局过程,在屏幕上都会给渲染树中的每个节点一个确定的坐标，显示在屏幕的确切位置<br>绘制</li>
-<li>下一步就是绘制渲染对象-渲染树通过调用每一个节点的paint方法进行绘制(使用浏览器的后端API agnostic UI),最终展示内容在屏幕上</li>
-</ul>
-</blockquote>
-<h3 id="进入虚拟DOM"><a href="#进入虚拟DOM" class="headerlink" title="进入虚拟DOM"></a>进入虚拟DOM</h3><blockquote>
-<p>每当修改一个DOM行为时候，浏览器工作流中所有步骤都会触发,从创建渲染树开始(从新计算所有节点的的所有样式信息),布局，绘制，所有步骤都会从做<br>在一个复杂的过程中,通常涉及大量的DOM的操作,这需要多个计算步骤，这是效率非常低的<br>当你的视图变化时候,在真实DOM上进行所有假定的更改,首先生成虚拟DOM,然后发送到真实的DOM,从而减少计算的数量<br>实际上虚拟DOM是将双缓冲应用于虚拟DOM</p>
-</blockquote>
-<h2 id="DOM-DIFF算法"><a href="#DOM-DIFF算法" class="headerlink" title="DOM DIFF算法"></a>DOM DIFF算法</h2><h3 id="什么是-DOM-Diff-算法"><a href="#什么是-DOM-Diff-算法" class="headerlink" title="什么是 DOM Diff 算法"></a>什么是 DOM Diff 算法</h3><blockquote>
-<p>Web 界面由 DOM 树来构成，当其中某一部分发生变化时，其实就是对应的某个 DOM 节点发生了变化.在虚拟dom中，状态决定界面,前后两种状态对应两种界面,比较两个界面的区别就需要比较两个界面<br>即给定任意两棵树，找到最少的转换步骤。但是标准的的 编辑距离算法复杂度需要 O(n^3)，这显然无法满足性能要求。要达到每次界面都可以整体刷新界面的目的，势必需要对算法进行优化。FACEBOOK工程师做了以下两点如下假设,使算法复杂度降低到O(n):</p>
-<ul>
-<li>两个相同组件产生类似的 DOM 结构，不同的组件产生不同的 DOM 结构；</li>
-<li>对于同一层次的一组子节点，它们可以通过唯一的 id 进行区分。</li>
-</ul>
-</blockquote>
-<h3 id="不同节点类型的比较"><a href="#不同节点类型的比较" class="headerlink" title="不同节点类型的比较"></a>不同节点类型的比较</h3><blockquote>
-<p>为了在树之间进行比较，我们首先要能够比较两个节点，比较两个虚拟 DOM 节点，当两个节点不同时，应该如何处理。<br>这分为两种情况：</p>
-<ul>
-<li>（1）节点类型不同</li>
-<li>（2）节点类型相同，但是属性不同。<br>当在树中的同一位置前后输出了不同类型的节点，直接删除前面的节点，然后创建并插入新的节点。假设我们在树的同一位置前后两次输出不同类型的节点。<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">renderA: <span class="tag">&lt;<span class="name">div</span>/&gt;</span></span><br><span class="line">renderB: <span class="tag">&lt;<span class="name">span</span>/&gt;</span></span><br><span class="line">=&gt; [removeNode <span class="tag">&lt;<span class="name">div</span>/&gt;</span>], [insertNode <span class="tag">&lt;<span class="name">span</span>/&gt;</span>]</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-</blockquote>
-<blockquote>
-<p>当一个节点从 div 变成 span 时，简单的直接删除 div 节点，并插入一个新的 span 节点。这符合我们对真实 DOM 操作的理解。<br>需要注意的是，删除节点意味着彻底销毁该节点，而不是再后续的比较中再去看是否有另外一个节点等同于该删除的节点。如果该删除的节点之下有子节点，那么这些子节点也会被完全删除，它们也不会用于后面的比较。这也是算法复杂能够降低到 O（n）的原因。<br>不同的组件一般会产生不一样的 DOM 结构，与其浪费时间去比较它们基本上不会等价的 DOM 结构，还不如完全创建一个新的组件加上去。<br>DOM Diff 算法实际上只会对树进行逐层比较，如下所述。</p>
-</blockquote>
-<h3 id="逐层进行节点比较"><a href="#逐层进行节点比较" class="headerlink" title="逐层进行节点比较"></a>逐层进行节点比较</h3><blockquote>
-<p>树的算法其实非常简单，那就是两棵树只会对同一层次的节点进行比较。如下图所示：<br><img src="https://static001.infoq.cn/resource/image/1f/5a/1f522dc11891365ce77c7650f517495a.png"><br>只会对相同颜色方框内的 DOM 节点进行比较，即同一个父节点下的所有子节点。当发现节点已经不存在，则该节点及其子节点会被完全删除掉，不会用于进一步的比较。这样只需要对树进行一次遍历，便能完成整个 DOM 树的比较。</p>
-</blockquote>
-<h2 id="例，比如下面的DOM结构"><a href="#例，比如下面的DOM结构" class="headerlink" title="例，比如下面的DOM结构 "></a><em>例，比如下面的DOM结构 </em></h2><p><img src="https://static001.infoq.cn/resource/image/e1/e3/e1a32e640909e276d6f9c6ac9c1da4e3.png"></p>
-<p>A 节点被整个移动到 D 节点下，直观的考虑 DOM Diff 操作应该是</p>
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">A.parent.remove(A); </span><br><span class="line">D.append(A);</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>只会简单的考虑同层节点的位置变换，对于不同层的节点，只有简单的创建和删除。当根节点发现子节点中 A 不见了，就会直接销毁 A；而当 D 发现自己多了一个子节点 A，则会创建一个新的 A 作为子节点。因此对于这种结构的转变的实际操作是<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">A.destroy();</span><br><span class="line">A = new A();</span><br><span class="line">A.append(new B());</span><br><span class="line">A.append(new C());</span><br><span class="line">D.append(A);</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<blockquote>
-<p>可以看到，以 A 为根节点的树被整个重新创建.虽然看上去这样的算法有些“简陋”，但是其基于的是第一个假设：两个不同组件一般产生不一样的 DOM 结构。<br><img src="https://static001.infoq.cn/resource/image/c7/15/c7ecf97eb61a4824f4005f1914112c15.png"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">C will unmount.</span><br><span class="line">C is created.</span><br><span class="line">B is updated.</span><br><span class="line">A is updated.</span><br><span class="line">C did mount.</span><br><span class="line">D is updated.</span><br><span class="line">R is updated.</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<blockquote>
-<p>可以看到C节点是完全重建后再添加到 D 节点之下，而不是将其“移动”过去</p>
-</blockquote>
-<h2 id="相同类型节点的比较"><a href="#相同类型节点的比较" class="headerlink" title="相同类型节点的比较"></a>相同类型节点的比较</h2><blockquote>
-<p>相同类型的节点,对属性进行重设从而实现节点的转换。例如：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">renderA: &lt;div id=&quot;before&quot; /&gt;</span><br><span class="line">renderB: &lt;div id=&quot;after&quot; /&gt;</span><br><span class="line">=&gt; [replaceAttribute id &quot;after&quot;]</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<blockquote>
-<p>虚拟 DOM 的 style 属性稍有不同，其值并不是一个简单字符串而必须为一个对象，因此转换过程如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">renderA: &lt;div style=&#123;&#123;color: &apos;red&apos;&#125;&#125; /&gt;</span><br><span class="line">renderB: &lt;div style=&#123;&#123;fontWeight: &apos;bold&apos;&#125;&#125; /&gt;</span><br><span class="line">=&gt; [removeStyle color], [addStyle font-weight &apos;bold&apos;]</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="列表节点的比较"><a href="#列表节点的比较" class="headerlink" title="列表节点的比较"></a>列表节点的比较</h2><blockquote>
-<p>对于不在同一层的节点的比较，即使它们完全一样，也会销毁并重新创建。那么当它们在同一层时<br>列表节点的操作通常包括添加、删除和排序。例如下图，我们需要往 B 和 C 直接插入节点 F<br><img src="https://static001.infoq.cn/resource/image/eb/86/eb7b537c6ab5ac31ffcc6483fb7fba86.png"><br>这时如果每个节点都没有唯一的标识，React 无法识别每一个节点，那么更新过程会很低效，即，将 C 更新成 F，D 更新成 C，E 更新成 D，最后再插入一个 E 节点。效果如下图所示：<br><img src="https://static001.infoq.cn/resource/image/c8/f9/c870788f72025a49a6781c5135df38f9.png"><br>会逐个对节点进行更新，转换到目标节点。而最后插入新的节点 E，涉及到的 DOM 操作非常多。而如果给每个节点唯一的标识（key），那么 React 能够找到正确的位置去插入新的节点，入下图所示：<br><img src="https://static001.infoq.cn/resource/image/ff/6f/ffe3529b4043ea4b37be8563ccb1fe6f.png"><br>对于列表节点顺序的调整其实也类似于插入或删除，<br><img src="https://static001.infoq.cn/resource/image/75/9b/753a32f37deff53b32244a5c4ef1b29b.png"><br>即将同一层的节点位置进行调整。如果未提供 key，那么认为 B 和 C 之后的对应位置组件类型不同，因此完全删除后重建，控制台输出如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">B will unmount.</span><br><span class="line">C will unmount.</span><br><span class="line">C is created.</span><br><span class="line">B is created.</span><br><span class="line">C did mount.</span><br><span class="line">B did mount.</span><br><span class="line">A is updated.</span><br><span class="line">R is updated.</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<blockquote>
-<p>而如果提供了 key，如下面的代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">shape5: function() &#123;</span><br><span class="line">  return (</span><br><span class="line">    &lt;Root&gt;</span><br><span class="line">      &lt;A&gt;</span><br><span class="line">        &lt;B key=&quot;B&quot; /&gt;</span><br><span class="line">        &lt;C key=&quot;C&quot; /&gt;</span><br><span class="line">      &lt;/A&gt;</span><br><span class="line">    &lt;/Root&gt;</span><br><span class="line">  );</span><br><span class="line">&#125;,</span><br><span class="line"></span><br><span class="line">shape6: function() &#123;</span><br><span class="line">  return (</span><br><span class="line">    &lt;Root&gt;</span><br><span class="line">      &lt;A&gt;</span><br><span class="line">        &lt;C key=&quot;C&quot; /&gt;</span><br><span class="line">        &lt;B key=&quot;B&quot; /&gt;</span><br><span class="line">      &lt;/A&gt;</span><br><span class="line">    &lt;/Root&gt;</span><br><span class="line">  );</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<blockquote>
-<p>控制台输出如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">C is updated.</span><br><span class="line">B is updated.</span><br><span class="line">A is updated.</span><br><span class="line">R is updated.</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<p><a href="https://www.infoq.cn/article/react-dom-diff" target="_blank" rel="noopener">引用</a><br><a href="https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/" target="_blank" rel="noopener">引用</a><br><a href="https://hashnode.com/post/the-one-thing-that-no-one-properly-explains-about-react-why-virtual-dom-cisczhfj41bmssp53mvfwmgrq" target="_blank" rel="noopener">引用</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -579,10 +407,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -590,6 +419,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -610,8 +443,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -653,6 +495,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#使用的莱文斯坦算法-编辑距离算法"><span class="nav-number">1.</span> <span class="nav-text">使用的莱文斯坦算法(编辑距离算法)</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#前期了解"><span class="nav-number"></span> <span class="nav-text">前期了解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#概念"><span class="nav-number"></span> <span class="nav-text">概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#上下界"><span class="nav-number"></span> <span class="nav-text">上下界</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#莱文斯坦距离包括几个简单的上下界-包括"><span class="nav-number">1.</span> <span class="nav-text">莱文斯坦距离包括几个简单的上下界,包括:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例子"><span class="nav-number"></span> <span class="nav-text">例子</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下面是一个由C语言实现的简单但效率低下的莱文斯坦距离函数-函数给定两个字符串以及他们对应的长度s和t作为参数，并将编辑距离返回"><span class="nav-number"></span> <span class="nav-text">下面是一个由C语言实现的简单但效率低下的莱文斯坦距离函数,函数给定两个字符串以及他们对应的长度s和t作为参数，并将编辑距离返回.</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#用全矩阵迭代"><span class="nav-number">1.</span> <span class="nav-text">用全矩阵迭代</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#用两个矩阵进行迭代"><span class="nav-number">2.</span> <span class="nav-text">用两个矩阵进行迭代</span></a></li></ol></li></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -786,6 +644,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
